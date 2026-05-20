@@ -37,28 +37,27 @@ To remove the shell:
 # 🔍 Initial Observations
 
 During teardown several major factory systems become visible:
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a9642c1c-f821-4760-a027-971710ee7333" />
-- Upper heater banks
 - Lower heater banks
 - Factory convection fan
 - Thermal protection devices
 - Factory control PCB
 - Internal airflow routing
 - Heater wiring layout
+<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a9642c1c-f821-4760-a027-971710ee7333" />
+
+--
 
 
 # 🌡️ Factory Heating System
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/bd60366f-e9ca-4ef8-8a6a-9b2f9543b28a" />
 
 The factory heater configuration consists of:
-
 - Multiple upper heating elements
 - Lower heating element banks
 - Individually grouped heater circuits
 - Convection-assisted airflow circulation
+- <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/bd60366f-e9ca-4ef8-8a6a-9b2f9543b28a" />
 
 The heater groups appear to be separated into:
-
 - Upper heater group(s)
 - Lower heater group(s)
 
