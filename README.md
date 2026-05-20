@@ -197,8 +197,7 @@ Suggestions, improvements, and thermal/process-control discussions are welcome.
 
 # 📄 License
 
-License information will be added later.
-
+This project is licensed under the GNU GPL v3.0 License.
 ---
 
 # 🐟 FishyFabsPNW
