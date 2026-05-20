@@ -13,6 +13,9 @@ ThermaVault PID is a custom annealing oven conversion focused on improving chamb
 The project replaces the factory timer/controller system with:
 
 - Industrial PID temperature control with  Programmable ramp/soak heat cycles -<img width="566" height="624" alt="image" src="https://github.com/user-attachments/assets/1f51fc1a-f9c9-4be2-b712-107a3e9f7998" />
+                                                                               -<img width="510" height="510" alt="image" src="https://github.com/user-attachments/assets/84f70611-4241-4cf7-9cf8-10e8b605c220" />
+
+
 
 - SSR-based heater switching -<img width="640" height="640" alt="image" src="https://github.com/user-attachments/assets/231521ba-c5fa-4c40-af27-a3a464f714a6" />
 
