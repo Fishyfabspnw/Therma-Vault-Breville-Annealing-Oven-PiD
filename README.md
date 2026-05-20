@@ -106,47 +106,12 @@ Recommended industrial SSR brands include:
 - Celduc
 - Panasonic Industrial
 - Crouzet
-
-A detailed BOM with the exact hardware used in this build will be added later.
-
----
-
-#  Temperature Sensing
-
-The system currently uses:
-
-- Single PID control thermocouple
-- Chamber-air based temperature control
-
-Probe placement is focused around:
-
-- Center chamber positioning
-- Part-height measurement
-- Reduced direct radiant exposure
-
-Additional monitoring probes may be added later for chamber thermal mapping and consistency testing.
-
-
+- 
 ---
 
 # 📷 Photos
 
 Project photos, wiring diagrams, and build documentation will be added as the project progresses.
-
-
----
-
-#  Repository Status
-
- Active Development
-
-This repository is continuously evolving as the project progresses through testing, tuning, and refinement.
-
----
-
-#  Contributing
-
-Suggestions, improvements, and thermal/process-control discussions are welcome.
 
 ---
 
