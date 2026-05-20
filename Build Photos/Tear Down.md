@@ -1,5 +1,13 @@
 # 🔧 Breville BOV800XL Tear Down Photo Log
 
+# 📦 Oven Platform
+
+Breville BOV800XL Smart Oven
+<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/4a636258-456c-40f7-a933-a2d51ac80590" />
+🔗 https://www.breville.com/en-us/product/bov800
+
+
+
 This section documents the teardown process of the Breville BOV800XL convection oven platform used for the ThermaVault PID conversion project.
 
 The purpose of the teardown is to:
@@ -54,7 +62,6 @@ The heater groups appear to be separated into:
 - Lower heater group(s)
 
   
-
 
 <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a22d5dc4-d2d6-45e0-8ce5-a87d46463c31" />
 <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/658fd9cd-770b-4e82-93a3-8e9d67592da7" />
