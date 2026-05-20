@@ -1,7 +1,61 @@
-Tear Down Photos of the Breville800XL
+# 🔧 Breville BOV800XL Tear Down Photo Log
+
+This section documents the teardown process of the Breville BOV800XL convection oven platform used for the ThermaVault PID conversion project.
+
+The purpose of the teardown is to:
+
+- Understand the factory heater layout
+- Identify thermal safety components
+- Map the factory wiring
+- Inspect airflow routing
+- Remove the factory control system
+- Prepare the platform for PID conversion
+
+---
+
+# 🪛 Initial Disassembly
+
+The outer shell is secured using multiple screws around the perimeter of the unit.
+
+To remove the shell:
+
+1. Remove all visible perimeter screws
+2. Remove the hidden screws underneath near the control board area
+3. Once all shell screws are removed, slide the shell rearward toward the back of the unit
+4. Lift the shell upward to fully remove it
+
 --
-First steps are taking the unit apart to understand it better.
---
+
+# 🔍 Initial Observations
+
+During teardown several major factory systems become visible:
+
+- Upper heater banks
+- Lower heater banks
+- Factory convection fan
+- Thermal protection devices
+- Factory control PCB
+- Internal airflow routing
+- Heater wiring layout
+
+
+# 🌡️ Factory Heating System
+
+The factory heater configuration consists of:
+
+- Multiple upper heating elements
+- Lower heating element banks
+- Individually grouped heater circuits
+- Convection-assisted airflow circulation
+
+The heater groups appear to be separated into:
+
+- Upper heater group(s)
+- Lower heater group(s)
+
+  
+
+
 <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a22d5dc4-d2d6-45e0-8ce5-a87d46463c31" />
 <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/658fd9cd-770b-4e82-93a3-8e9d67592da7" />
 <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/46652a7f-ff84-41ef-b47c-5054012d5184" />
