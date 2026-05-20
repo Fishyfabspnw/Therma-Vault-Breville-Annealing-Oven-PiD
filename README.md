@@ -12,7 +12,7 @@ ThermaVault PID is a custom annealing oven conversion focused on improving chamb
 
 The project replaces the factory timer/controller system with:
 
-- Industrial PID temperature control
+- Industrial PID temperature control -(<img width="566" height="624" alt="image" src="https://github.com/user-attachments/assets/1f51fc1a-f9c9-4be2-b712-107a3e9f7998" />)
 - SSR-based heater switching
 - Convection airflow management
 - Programmable ramp/soak heat cycles
@@ -106,7 +106,7 @@ Recommended industrial SSR brands include:
 - Celduc -(https://www.digikey.com/en/products/detail/celduc/SO943460/14311190)
 - Panasonic Electric Works -(https://www.digikey.com/en/products/detail/panasonic-industry/AQA611VL/2364686)
 - Crouzet -(https://www.digikey.com/en/products/detail/crouzet/84137670N/13175923)
-- 
+  
 ---
 
 # 📷 Photos
