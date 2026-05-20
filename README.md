@@ -1,4 +1,4 @@
-# 🔥 ThermaVault PID
+#  ThermaVault PID
 
 Industrial-style PID-controlled annealing oven conversion based on a Breville convection oven platform.
 
@@ -6,7 +6,7 @@ Designed for engineering plastics requiring controlled annealing cycles, improve
 
 ---
 
-# 📸 Project Overview
+#  Project Overview
 
 ThermaVault PID is a custom annealing oven conversion focused on improving chamber stability, airflow consistency, and programmable process control using industrial-style hardware.
 
@@ -22,7 +22,7 @@ The goal is to create a reusable and serviceable process oven platform for annea
 
 ---
 
-# 🎯 Design Goals
+#  Design Goals
 
 - Stable annealing temperatures
 - Reduced thermal overshoot
@@ -61,7 +61,7 @@ DO NOT bypass thermal safety devices.
 
 ---
 
-# 🧠 System Overview
+#  System Overview
 
 The oven is controlled using an industrial PID controller driving AC heater loads through a zero-cross SSR.
 
@@ -87,7 +87,7 @@ The factory convection fan is retained to improve:
 
 ---
 
-# ⚡ Recommended SSR Specifications
+# Recommended SSR Specifications
 
 The heater system is designed around an industrial AC zero-cross SSR intended for resistive heating loads.
 
@@ -111,7 +111,7 @@ A detailed BOM with the exact hardware used in this build will be added later.
 
 ---
 
-# 🌡️ Temperature Sensing
+#  Temperature Sensing
 
 The system currently uses:
 
@@ -136,25 +136,25 @@ Project photos, wiring diagrams, and build documentation will be added as the pr
 
 ---
 
-# 🛠️ Repository Status
+#  Repository Status
 
-🚧 Active Development
+ Active Development
 
 This repository is continuously evolving as the project progresses through testing, tuning, and refinement.
 
 ---
 
-# 🤝 Contributing
+#  Contributing
 
 Suggestions, improvements, and thermal/process-control discussions are welcome.
 
 ---
 
-# 📄 License
+#  License
 
 This project is licensed under the GNU GPL v3.0 License.
 ---
 
-# 🐟 FishyFabsPNW
+#  FishyFabsPNW
 
 Designed and documented by FishyFabsPNW.
