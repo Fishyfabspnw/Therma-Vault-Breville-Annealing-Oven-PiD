@@ -4,7 +4,7 @@
 
 Breville BOV800XL Smart Oven
 🔗 https://www.breville.com/en-us/product/bov800
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/4a636258-456c-40f7-a933-a2d51ac80590" />
+-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/4a636258-456c-40f7-a933-a2d51ac80590" />
 
 
 
@@ -43,7 +43,7 @@ During teardown several major factory systems become visible:
 - Factory control PCB
 - Internal airflow routing
 - Heater wiring layout
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a9642c1c-f821-4760-a027-971710ee7333" />
+- <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a9642c1c-f821-4760-a027-971710ee7333" />
 
 --
 
