@@ -1,2 +1,262 @@
-# Therma-Vault-Breville-Annealing-Oven-PiD
-Industrial-style PID conversion for a Breville oven used for engineering plastic annealing with SSR heater control, convection airflow, and programmable ramp/soak profiles.
+# 🔥 ThermaVault PID
+
+Industrial-style PID-controlled annealing oven conversion based on a Breville convection oven platform.
+
+Designed for engineering thermoplastics requiring controlled annealing cycles, improved thermal consistency, and long-duration process stability.
+
+---
+
+# 📸 Project Overview
+
+ThermaVault PID is a custom annealing oven conversion focused on improving chamber stability, airflow consistency, and programmable process control using industrial-style hardware.
+
+The project replaces the factory timer/controller system with:
+
+- Industrial PID temperature control
+- SSR-based heater switching
+- Convection airflow management
+- Programmable ramp/soak heat cycles
+- Independent thermal safety systems
+
+The goal is to create a reusable and serviceable process oven platform for annealing engineering thermoplastics such as:
+
+- Nylon
+- PA6-CF
+- PA12-CF
+- Polycarbonate
+- PET-CF
+- Other engineering-grade reinforced nylons and composites
+
+---
+
+# 🎯 Design Goals
+
+- Stable annealing temperatures
+- Reduced thermal overshoot
+- Better chamber temperature consistency
+- Industrial-style process control
+- Reusable appliance platform
+- Modular and serviceable electronics
+- Long-duration operation reliability
+- Improved airflow circulation
+- Expandable hardware ecosystem
+
+---
+
+# ⚠️ Safety Notice
+
+This project involves:
+
+- Mains AC voltage
+- High temperatures
+- Resistive heating elements
+- Solid state relays
+- Appliance modification
+
+This repository is intended for educational and informational purposes only.
+
+Always:
+
+- Use proper grounding
+- Use correctly rated wire
+- Use thermal protection
+- Use proper fuse protection
+- Keep SSRs heatsinked
+- Verify wiring before applying power
+- Keep electronics isolated from heat
+
+DO NOT bypass thermal safety devices.
+
+---
+
+# 🧠 System Overview
+
+The oven is controlled using an industrial PID controller driving AC heater loads through a zero-cross SSR.
+
+The factory convection fan is retained to improve:
+
+- Chamber airflow
+- Thermal consistency
+- Temperature recovery
+- Heat distribution
+
+The system is designed around:
+
+- Slow stable heating
+- Long soak durations
+- Reduced thermal gradients
+- Consistent chamber temperature
+
+---
+
+# 🔧 Hardware Overview
+
+| Component | Description |
+|---|---|
+| Oven Platform | Breville convection oven |
+| PID Controller | Industrial modular PID controller |
+| Heater Control | Industrial AC SSR |
+| Temperature Sensor | K-Type thermocouple |
+| Airflow | Factory convection fan |
+| Safety Devices | Thermal cutoff + fuse protection |
+
+---
+
+# ⚡ Recommended SSR Specifications
+
+The heater system is designed around an industrial AC zero-cross SSR intended for resistive heating loads.
+
+Recommended SSR specifications:
+
+- AC output SSR
+- Zero-cross switching
+- 25A–40A current rating
+- 3–32VDC control input
+- Chassis/heatsink mount
+- Designed for resistive heater loads
+
+Recommended industrial SSR brands include:
+
+- Crydom
+- Celduc
+- Carlo Gavazzi
+- Panasonic Industrial
+- Crouzet
+
+A detailed BOM with the exact hardware used in this build will be added later.
+
+---
+
+# 🌡️ Heater Configuration
+
+The oven contains multiple upper and lower heater banks distributed throughout the chamber.
+
+Final heater configuration:
+
+- Approximate total resistance: `~9Ω`
+- Approximate total power: `~1600W @ 120V`
+
+The heater system is configured for:
+
+- Balanced chamber heating
+- Reduced radiant hot spots
+- Stable long-duration thermal performance
+
+---
+
+# 🌀 Airflow System
+
+The factory convection fan is retained to:
+
+- Reduce chamber stratification
+- Improve thermal consistency
+- Smooth PID response
+- Reduce hot spots
+- Improve annealing consistency
+
+Additional airflow tuning and chamber balancing modifications are planned for future revisions.
+
+---
+
+# 🌡️ Temperature Sensing
+
+The system currently uses:
+
+- Single PID control thermocouple
+- Chamber-air based temperature control
+
+Probe placement is focused around:
+
+- Center chamber positioning
+- Part-height measurement
+- Reduced direct radiant exposure
+
+Additional monitoring probes may be added later for chamber thermal mapping and consistency testing.
+
+---
+
+# 🔌 Electrical Architecture
+
+Basic heater architecture:
+
+```text
+120V AC
+   ↓
+Fuse Protection
+   ↓
+Thermal Cutoff / High Limit
+   ↓
+SSR
+   ↓
+Heater Banks
+```
+
+Control architecture:
+
+```text
+PID Controller
+   ↓
+SSR Control Signal
+   ↓
+Heater Switching
+```
+
+---
+
+# 📈 Future Plans
+
+- Improved chamber insulation
+- Thermal mapping
+- Chamber airflow tuning
+- External electronics enclosure
+- Data logging
+- WiFi monitoring
+- Chamber lighting
+- Modular wiring harnesses
+- Enhanced serviceability
+- Multi-stage annealing profiles
+
+---
+
+# 📷 Photos
+
+Project photos, wiring diagrams, and build documentation will be added as the project progresses.
+
+---
+
+# 📚 Planned Documentation
+
+- Wiring diagrams
+- SSR mounting
+- PID configuration
+- Ramp/soak programming
+- Thermocouple placement
+- Chamber airflow modifications
+- Safety systems
+- BOM (Bill of Materials)
+
+---
+
+# 🛠️ Repository Status
+
+🚧 Active Development
+
+This repository is continuously evolving as the project progresses through testing, tuning, and refinement.
+
+---
+
+# 🤝 Contributing
+
+Suggestions, improvements, and thermal/process-control discussions are welcome.
+
+---
+
+# 📄 License
+
+License information will be added later.
+
+---
+
+# 🐟 FishyFabsPNW
+
+Designed and documented by FishyFabsPNW.
