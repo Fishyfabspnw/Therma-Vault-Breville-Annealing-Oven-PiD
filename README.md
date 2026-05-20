@@ -2,7 +2,7 @@
 
 Industrial-style PID-controlled annealing oven conversion based on a Breville convection oven platform.
 
-Designed for engineering thermoplastics requiring controlled annealing cycles, improved thermal consistency, and long-duration process stability.
+Designed for engineering plastics requiring controlled annealing cycles, improved thermal consistency, and long-duration stability.
 
 ---
 
@@ -38,7 +38,6 @@ The goal is to create a reusable and serviceable process oven platform for annea
 - Reusable appliance platform
 - Modular and serviceable electronics
 - Long-duration operation reliability
-- Improved airflow circulation
 - Expandable hardware ecosystem
 
 ---
@@ -58,10 +57,10 @@ This repository is intended for educational and informational purposes only.
 Always:
 
 - Use proper grounding
-- Use correctly rated wire
+- Use correctly rated wire ( Mica Perferred )
 - Use thermal protection
 - Use proper fuse protection
-- Keep SSRs heatsinked
+- Keep SSRs heatsinked ( With Thermal Paste!!)
 - Verify wiring before applying power
 - Keep electronics isolated from heat
 
@@ -96,7 +95,7 @@ The system is designed around:
 | Oven Platform | Breville convection oven |
 | PID Controller | Industrial modular PID controller |
 | Heater Control | Industrial AC SSR |
-| Temperature Sensor | K-Type thermocouple |
+| Temperature Sensor | RTD PT100 |
 | Airflow | Factory convection fan |
 | Safety Devices | Thermal cutoff + fuse protection |
 
@@ -119,7 +118,6 @@ Recommended industrial SSR brands include:
 
 - Crydom
 - Celduc
-- Carlo Gavazzi
 - Panasonic Industrial
 - Crouzet
 
@@ -135,26 +133,6 @@ Final heater configuration:
 
 - Approximate total resistance: `~9Ω`
 - Approximate total power: `~1600W @ 120V`
-
-The heater system is configured for:
-
-- Balanced chamber heating
-- Reduced radiant hot spots
-- Stable long-duration thermal performance
-
----
-
-# 🌀 Airflow System
-
-The factory convection fan is retained to:
-
-- Reduce chamber stratification
-- Improve thermal consistency
-- Smooth PID response
-- Reduce hot spots
-- Improve annealing consistency
-
-Additional airflow tuning and chamber balancing modifications are planned for future revisions.
 
 ---
 
@@ -175,46 +153,12 @@ Additional monitoring probes may be added later for chamber thermal mapping and 
 
 ---
 
-# 🔌 Electrical Architecture
-
-Basic heater architecture:
-
-```text
-120V AC
-   ↓
-Fuse Protection
-   ↓
-Thermal Cutoff / High Limit
-   ↓
-SSR
-   ↓
-Heater Banks
-```
-
-Control architecture:
-
-```text
-PID Controller
-   ↓
-SSR Control Signal
-   ↓
-Heater Switching
-```
-
----
-
 # 📈 Future Plans
 
 - Improved chamber insulation
-- Thermal mapping
 - Chamber airflow tuning
-- External electronics enclosure
-- Data logging
-- WiFi monitoring
 - Chamber lighting
-- Modular wiring harnesses
 - Enhanced serviceability
-- Multi-stage annealing profiles
 
 ---
 
