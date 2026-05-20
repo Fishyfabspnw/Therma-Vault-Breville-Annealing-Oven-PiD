@@ -5,6 +5,7 @@ Industrial-style PID-controlled annealing oven conversion based on a Breville co
 Designed for engineering plastics requiring controlled annealing cycles, improved thermal consistency, and long-duration stability.
 
 <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/534b35a8-9bc2-4163-81de-b93c42fc987d" />
+
 ---
 
 #  Project Overview
@@ -43,33 +44,15 @@ This project involves:
 - Solid state relays
 - Appliance modification
 
-This repository is intended for educational and informational purposes only.
-
-Always:
-
-- Use proper grounding
-- Use correctly rated wire ( Mica Perferred )
-- Use thermal protection
-- Use proper fuse protection
-- Keep SSRs heatsinked ( With Thermal Paste!!)
-- Verify wiring before applying power
-- Keep electronics isolated from heat
-
-DO NOT bypass thermal safety devices.
-
 ---
 
 #  System Overview
 
 The oven is controlled using an industrial PID controller driving AC heater loads through a zero-cross SSR.
 
-The factory convection fan is retained to improve:
+The factory convection fan is retained.
 
-- Chamber airflow
-- Thermal consistency
-- Temperature recovery
-- Heat distribution
-- 
+
 ---
 
 # 🔧 Hardware Overview
@@ -86,17 +69,6 @@ The factory convection fan is retained to improve:
 ---
 
 # Recommended SSR Specifications
-
-The heater system is designed around an industrial AC zero-cross SSR intended for resistive heating loads.
-
-Recommended SSR specifications:
-
-- AC output SSR
-- Zero-cross switching
-- 25A–40A current rating
-- 3–32VDC control input
-- Chassis/heatsink mount
-- Designed for resistive heater loads
 
 Recommended industrial SSR brands include:
 
