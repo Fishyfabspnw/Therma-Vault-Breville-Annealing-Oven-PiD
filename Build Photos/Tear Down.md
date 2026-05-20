@@ -3,8 +3,8 @@
 # 📦 Oven Platform
 
 Breville BOV800XL Smart Oven
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/4a636258-456c-40f7-a933-a2d51ac80590" />
 🔗 https://www.breville.com/en-us/product/bov800
+<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/4a636258-456c-40f7-a933-a2d51ac80590" />
 
 
 
@@ -37,7 +37,7 @@ To remove the shell:
 # 🔍 Initial Observations
 
 During teardown several major factory systems become visible:
-
+<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a9642c1c-f821-4760-a027-971710ee7333" />
 - Upper heater banks
 - Lower heater banks
 - Factory convection fan
@@ -48,6 +48,7 @@ During teardown several major factory systems become visible:
 
 
 # 🌡️ Factory Heating System
+<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/bd60366f-e9ca-4ef8-8a6a-9b2f9543b28a" />
 
 The factory heater configuration consists of:
 
@@ -63,12 +64,7 @@ The heater groups appear to be separated into:
 
   
 
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/a22d5dc4-d2d6-45e0-8ce5-a87d46463c31" />
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/658fd9cd-770b-4e82-93a3-8e9d67592da7" />
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/46652a7f-ff84-41ef-b47c-5054012d5184" />
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/302270d1-3b58-4092-b26b-600f58bdd37c" />
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/d2bab942-5b28-450c-9c46-47cc2c3b5e5a" />
-<img width="1256" height="830" alt="image" src="https://github.com/user-attachments/assets/26d384dc-647d-4aae-8469-c7179b55f6b1" />
-<img width="1237" height="569" alt="image" src="https://github.com/user-attachments/assets/0274402a-2f6a-4017-b606-59c479be23e4" />
+
+
 
 
