@@ -55,15 +55,39 @@ The factory heater configuration consists of:
 - Lower heating element banks
 - Individually grouped heater circuits
 - Convection-assisted airflow circulation
-- <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/bd60366f-e9ca-4ef8-8a6a-9b2f9543b28a" />
 
 The heater groups appear to be separated into:
 - Upper heater group(s)
 - Lower heater group(s)
-
+- <img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/bd60366f-e9ca-4ef8-8a6a-9b2f9543b28a" />
   
 
 
+# 🔍 Factory Thermal Protection
 
+The factory oven contains thermal protection devices integrated into the heater system wiring.
 
+These devices are designed to:
+
+- Interrupt power during overheating conditions
+- Protect internal wiring and electronics
+- Reduce fire risk
+- Prevent unsafe chamber temperatures
+
+The thermal protection system remains an important part of the ThermaVault PID conversion.
+
+---
+
+# 📚 Factory Parts Diagram Verification
+
+The factory thermal fuse assembly was confirmed using the Breville BOV800XL parts diagram and component reference documentation.
+
+The identified thermal protection assembly appears to match the factory-installed safety configuration used within the original heater circuit.
+
+---
+# 📷 Factory Thermal Fuse Reference
+
+<img width="1237" height="569" alt="image" src="https://github.com/user-attachments/assets/33cf837d-6fd7-42a2-909a-e1b01305b7c5" />
+
+---
 
