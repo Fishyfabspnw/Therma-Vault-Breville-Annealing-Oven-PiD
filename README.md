@@ -1,4 +1,5 @@
 # 🔥 ThermaVault PID
+<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/cde0d8fc-f3f8-44a2-a94f-cfc59678a54f" />
 
 Industrial-style PID-controlled annealing oven conversion based on a Breville convection oven platform.
 
