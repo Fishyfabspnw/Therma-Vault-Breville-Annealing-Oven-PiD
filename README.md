@@ -1,5 +1,4 @@
 # 🔥 ThermaVault PID
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/cde0d8fc-f3f8-44a2-a94f-cfc59678a54f" />
 
 Industrial-style PID-controlled annealing oven conversion based on a Breville convection oven platform.
 
@@ -19,14 +18,7 @@ The project replaces the factory timer/controller system with:
 - Programmable ramp/soak heat cycles
 - Independent thermal safety systems
 
-The goal is to create a reusable and serviceable process oven platform for annealing engineering thermoplastics such as:
-
-- Nylon
-- PA6-CF
-- PA12-CF
-- Polycarbonate
-- PET-CF
-- Other engineering-grade reinforced nylons and composites
+The goal is to create a reusable and serviceable process oven platform for annealing engineering plastics.
 
 ---
 
@@ -79,14 +71,7 @@ The factory convection fan is retained to improve:
 - Thermal consistency
 - Temperature recovery
 - Heat distribution
-
-The system is designed around:
-
-- Slow stable heating
-- Long soak durations
-- Reduced thermal gradients
-- Consistent chamber temperature
-
+- 
 ---
 
 # 🔧 Hardware Overview
@@ -126,17 +111,6 @@ A detailed BOM with the exact hardware used in this build will be added later.
 
 ---
 
-# 🌡️ Heater Configuration
-
-The oven contains multiple upper and lower heater banks distributed throughout the chamber.
-
-Final heater configuration:
-
-- Approximate total resistance: `~9Ω`
-- Approximate total power: `~1600W @ 120V`
-
----
-
 # 🌡️ Temperature Sensing
 
 The system currently uses:
@@ -152,14 +126,6 @@ Probe placement is focused around:
 
 Additional monitoring probes may be added later for chamber thermal mapping and consistency testing.
 
----
-
-# 📈 Future Plans
-
-- Improved chamber insulation
-- Chamber airflow tuning
-- Chamber lighting
-- Enhanced serviceability
 
 ---
 
@@ -167,18 +133,6 @@ Additional monitoring probes may be added later for chamber thermal mapping and 
 
 Project photos, wiring diagrams, and build documentation will be added as the project progresses.
 
----
-
-# 📚 Planned Documentation
-
-- Wiring diagrams
-- SSR mounting
-- PID configuration
-- Ramp/soak programming
-- Thermocouple placement
-- Chamber airflow modifications
-- Safety systems
-- BOM (Bill of Materials)
 
 ---
 
