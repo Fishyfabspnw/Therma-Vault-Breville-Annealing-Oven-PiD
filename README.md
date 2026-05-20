@@ -102,10 +102,10 @@ Recommended SSR specifications:
 
 Recommended industrial SSR brands include:
 
-- Crydom
-- Celduc
-- Panasonic Industrial
-- Crouzet
+- Sensata-Crydom -(https://www.digikey.com/en/products/detail/sensata-crydom/D2440/221764)
+- Celduc -(https://www.digikey.com/en/products/detail/celduc/SO943460/14311190)
+- Panasonic Electric Works -(https://www.digikey.com/en/products/detail/panasonic-industry/AQA611VL/2364686)
+- Crouzet -(https://www.digikey.com/en/products/detail/crouzet/84137670N/13175923)
 - 
 ---
 
