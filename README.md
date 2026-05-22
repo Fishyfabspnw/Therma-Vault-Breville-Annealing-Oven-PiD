@@ -81,7 +81,7 @@ Recommended industrial SSR brands include:
 
 # 📷 Photos
 
-Project photos, wiring diagrams, and build documentation will be added as the project progresses.
+Tear Down Photo Log ( https://github.com/Fishyfabspnw/Therma-Vault-Breville-Annealing-Oven-PiD/blob/main/Build%20Photos/Tear%20Down%20Overview.md )
 
 ---
 
