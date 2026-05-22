@@ -4,7 +4,6 @@
 
 Breville BOV800XL Smart Oven
 🔗 https://www.breville.com/en-us/product/bov800
--<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/4a636258-456c-40f7-a933-a2d51ac80590" />
 
 
 
