@@ -79,6 +79,20 @@ Recommended industrial SSR brands include:
   
 ---
 
+  # 📦 Bill of Materials (BOM)
+
+| Component | Description | Qty | Notes | Link |
+|---|---|---:|---|---|
+| PID Controller | Inkbird ITC-100VH | 1 | Main temperature controller | [Link](https://example.com) |
+| SSR Relay | 40A Solid State Relay | 1 | Controls heating elements | [Link](https://example.com) |
+| Heat Sink | SSR Heat Sink | 1 | Required for SSR cooling | [Link](https://example.com) |
+| Thermocouple | K-Type Thermocouple | 1 | Chamber temperature sensing | [Link](https://example.com) |
+| Cooling Fan | 120V AC Fan | 1 | Internal airflow | [Link](https://example.com) |
+| Ceramic Insulation | High-temp insulation | As Needed | Chamber insulation | [Link](https://example.com) |
+| Wire | High-temp silicone wire | As Needed | Internal wiring | [Link](https://example.com) |
+
+---
+
 # 📷 Photos
 
 [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md)
