@@ -83,13 +83,12 @@ Recommended industrial SSR brands include:
 
 | Component | Description | Qty | Notes | Link |
 |---|---|---:|---|---|
-| PID Controller | Inkbird ITC-100VH | 1 | Main temperature controller | [Link](https://example.com) |
-| SSR Relay | 40A Solid State Relay | 1 | Controls heating elements | [Link](https://example.com) |
-| Heat Sink | SSR Heat Sink | 1 | Required for SSR cooling | [Link](https://example.com) |
-| Thermocouple | K-Type Thermocouple | 1 | Chamber temperature sensing | [Link](https://example.com) |
-| Cooling Fan | 120V AC Fan | 1 | Internal airflow | [Link](https://example.com) |
-| Ceramic Insulation | High-temp insulation | As Needed | Chamber insulation | [Link](https://example.com) |
-| Wire | High-temp silicone wire | As Needed | Internal wiring | [Link](https://example.com) |
+| PID Controller | Novus N20K48 | 1 | Main temperature controller | [Link]([https://example.com](https://www.novusautomation.com/site/default.asp?Idioma=1&TroncoID=608027&SecaoID=818294&SubsecaoID=926360&Template=../catalogos/layout_produto.asp&ProdutoID=081905) |
+| SSR Relay | Celduc 40A  | 1 | Controls heating elements | [Link]([https://example.com](https://www.digikey.com/en/products/detail/celduc/SO943460/14311190) |
+| Heat Sink | SSR Heat Sink | 1 | Required for SSR cooling | [Link]([https://example.com](https://www.amazon.com/dp/B091HQL9TM?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Thermocouple | RTD PT100 | 1 | Chamber temperature sensing | [Link]([https://example.com](https://www.amazon.com/dp/B0FS7LJR8T?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Ceramic Insulation | High-temp insulation | As Needed | Chamber insulation | [Link]([https://example.com](https://www.amazon.com/dp/B0CNQZJXVP?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+| Wire | High-Temp Mica Wire | As Needed | Internal wiring | [Link]([https://example.com](https://www.amazon.com/dp/B0D8BBSKHM?ref=ppx_yo2ov_dt_b_fed_asin_title) |
 
 ---
 
