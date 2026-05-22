@@ -18,6 +18,8 @@ The purpose of the teardown is to:
 - Inspect airflow routing
 - Remove the factory control system
 - Prepare the platform for PID conversion
+<img width="300" height="225" alt="image" src="https://github.com/user-attachments/assets/388e833a-5e48-4bdd-87bd-afb590a3b30e" />
+<img width="300" height="225" alt="image" src="https://github.com/user-attachments/assets/ab8dee4d-45f8-4cd3-9a66-3d8479fedbdd" />
 
 ---
 
