@@ -64,7 +64,8 @@ The factory convection fan is retained so the oven can continue circulating hot 
 |---|---|
 | [Bill of Materials](./BOM.md) | Current parts list, links, quantities, and notes |
 | [Safety Notes](./SAFETY.md) | Mains voltage, SSR, fuse, and thermal safety notes |
-| [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md) | Photo documentation from the oven teardown |
+| [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md) | Documentation of the factory oven teardown process |
+| [Build Log](./Build%20Photos/Build%20Log.md) | Ongoing build progression, thermal modifications, wiring integration, and control system development |
 
 ---
 
@@ -81,6 +82,7 @@ See: **[BOM.md](./BOM.md)**
 Current photo documentation:
 
 - [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md)
+- [Build Log](./Build%20Photos/Build%20Log.md)
 
 ---
 
