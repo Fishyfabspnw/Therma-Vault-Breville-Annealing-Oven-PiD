@@ -76,7 +76,7 @@ Additional thermal protection sleeving and routing cleanup were implemented arou
 </p>
 
 <p align="center">
-  <img width="420" alt="Sensor routing detail" src="https://github.com/user-attachments/assets/83ad2ca9-45b4-40bd-a0e7-3cb6a72dc7be" />
+  <img width="420" alt="Sensor routing detail" src="" />
 </p>
 
 <p align="center">
