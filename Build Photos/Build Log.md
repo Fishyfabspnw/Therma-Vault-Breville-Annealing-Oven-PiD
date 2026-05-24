@@ -14,8 +14,7 @@ The project is centered around converting a Breville convection oven into a more
 
 The original Breville front control panel assembly was removed early in the build process to allow integration of a dedicated industrial PID controller and externalized control hardware.
 
-The factory faceplate was retained temporarily during the CAD phase to establish dimensional references for the replacement panel design.
-
+The factory faceplate was retained  during the tear down phase to be repurposed into a new faceplate.
 <p align="center">
   <img width="420" alt="Factory control panel" src="https://github.com/user-attachments/assets/0ee69a7e-09fd-4fe2-8b7a-6b8b25b1fa56" />
 </p>
