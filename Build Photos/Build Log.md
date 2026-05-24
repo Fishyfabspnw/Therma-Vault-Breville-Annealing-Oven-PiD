@@ -19,10 +19,6 @@ The factory faceplate was retained  during the tear down phase to be repurposed 
   <img width="420" alt="Factory control panel" src="https://github.com/user-attachments/assets/0ee69a7e-09fd-4fe2-8b7a-6b8b25b1fa56" />
 </p>
 
-<p align="center">
-<i>Original Breville front control assembly retained for dimensional reference during replacement faceplate development.</i>
-</p>
-
 ---
 
 # Chamber Sealing and Thermal Preparation
