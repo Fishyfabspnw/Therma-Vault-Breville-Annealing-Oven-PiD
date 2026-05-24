@@ -20,7 +20,6 @@ The build replaces the factory appliance timer/control behavior with an industri
 
 - [Project Goals](#project-goals)
 - [System Overview](#system-overview)
-- [Core Hardware](#core-hardware)
 - [Documentation](#documentation)
 - [Bill of Materials](#bill-of-materials)
 - [Photos](#photos)
@@ -50,40 +49,12 @@ This is not meant to be a quick “add a PID and call it good” project. The go
 
 At a high level, the oven uses a PID controller to read chamber temperature and control the heating elements through a properly rated AC solid state relay.
 
-```text
-AC Power In
-   |
-   |-- Fuse / breaker protection
-   |-- Main power switch
-   |-- PID controller power
-   |-- Convection fan control
-   |
-   '-- SSR-controlled heater circuit
-          |
-          '-- Factory heating elements
-```
-
 The factory convection fan is retained so the oven can continue circulating hot air through the chamber. Temperature feedback is handled by a high-temperature sensor mounted for chamber/process temperature control.
 
 <p align="center">
   <img width="420" alt="PID controller" src="https://github.com/user-attachments/assets/1f51fc1a-f9c9-4be2-b712-107a3e9f7998" />
-  <img width="380" alt="SSR hardware" src="https://github.com/user-attachments/assets/84f70611-4241-4cf7-9cf8b605c220" />
+  <img width="380" alt="SSR hardware" src="https://github.com/user-attachments/assets/84f70611-4241-4cf7-9cf8-10e8b605c220" />
 </p>
-
----
-
-## Core Hardware
-
-| System | Component | Notes |
-|---|---|---|
-| Oven platform | Breville convection oven | Donor appliance chassis and heating chamber |
-| Temperature control | Novus N20K48 PID controller | Main process controller with ramp/soak capability |
-| Heater switching | Industrial zero-cross AC SSR | SSR must be properly rated and mounted to a heat sink |
-| Temperature sensing | RTD PT100 | Chamber/process temperature feedback |
-| Airflow | Factory convection fan | Retained for chamber circulation |
-| Protection | Fuse / breaker / thermal cutoff | Required safety hardware, not optional |
-| Wiring | High-temperature appliance wire | Use properly rated wire for hot zones |
-| Insulation | Ceramic fiber insulation | Used to improve chamber stability |
 
 ---
 
@@ -92,16 +63,14 @@ The factory convection fan is retained so the oven can continue circulating hot 
 | Document | Purpose |
 |---|---|
 | [Bill of Materials](./BOM.md) | Current parts list, links, quantities, and notes |
-| [Safety Notes](./SAFETY.md) | Mains voltage, heat, SSR, fuse, and enclosure safety notes |
-| [Wiring Overview](./docs/WIRING_OVERVIEW.md) | High-level wiring architecture and circuit notes |
-| [Build Notes](./docs/BUILD_NOTES.md) | Build planning, layout notes, and documentation checklist |
+| [Safety Notes](./SAFETY.md) | Mains voltage, SSR, fuse, and thermal safety notes |
 | [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md) | Photo documentation from the oven teardown |
 
 ---
 
 ## Bill of Materials
 
-The BOM has been moved to a dedicated file so it can grow without cluttering the main README.
+The BOM has been moved to a dedicated file so it can expand without cluttering the main README.
 
 See: **[BOM.md](./BOM.md)**
 
@@ -112,16 +81,6 @@ See: **[BOM.md](./BOM.md)**
 Current photo documentation:
 
 - [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md)
-
-Future photo sections to add:
-
-- Original oven overview
-- Factory wiring before modification
-- Controller layout
-- SSR and heat sink mounting
-- Sensor placement
-- Final faceplate / enclosure install
-- First heat test
 
 ---
 
@@ -142,20 +101,6 @@ Minimum safety expectations:
 - Perform initial heat tests attended and away from flammable material.
 
 Read the full safety page before copying any part of this build: **[SAFETY.md](./SAFETY.md)**
-
----
-
-## Project Direction
-
-Planned documentation improvements:
-
-- Wiring diagram
-- Faceplate CAD files
-- Controller parameter notes
-- Annealing cycle examples
-- Thermal test results
-- Chamber temperature stability data
-- Final assembly photos
 
 ---
 
