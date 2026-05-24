@@ -1,108 +1,170 @@
-#  ThermaVault PID
+# ThermaVault PID
 
-Industrial-style PID-controlled annealing oven conversion based on a Breville convection oven platform.
+**Industrial-style PID-controlled annealing oven conversion based on a Breville convection oven platform.**
 
-Designed for engineering plastics requiring controlled annealing cycles, improved thermal consistency, and long-duration stability.
+ThermaVault PID is a documentation-first appliance conversion project focused on creating a more stable, serviceable, and repeatable annealing oven for engineering plastics used in 3D printing.
 
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/534b35a8-9bc2-4163-81de-b93c42fc987d" />
+The build replaces the factory appliance timer/control behavior with an industrial PID controller, solid state relay heater control, high-temperature sensing, upgraded insulation, and a more modular electronics layout.
 
----
+> **Status:** Active build / documentation in progress  
+> **Platform:** Breville convection oven conversion  
+> **Use case:** Controlled annealing cycles for 3D printed engineering plastics
 
-#  Project Overview
-
-ThermaVault PID is a custom annealing oven conversion focused on improving chamber stability, airflow consistency, and programmable process control using industrial-style hardware.
-
-The project replaces the factory timer/controller system with:
-
-- Industrial PID temperature control with  Programmable ramp/soak heat cycles -<img width="566" height="624" alt="image" src="https://github.com/user-attachments/assets/1f51fc1a-f9c9-4be2-b712-107a3e9f7998" />
-                                                                               -<img width="510" height="510" alt="image" src="https://github.com/user-attachments/assets/84f70611-4241-4cf7-9cf8-10e8b605c220" />
-
-The goal is to create a reusable and serviceable process oven platform for annealing engineering plastics.
+<p align="center">
+  <img width="720" alt="ThermaVault oven build" src="https://github.com/user-attachments/assets/534b35a8-9bc2-4163-81de-b93c42fc987d" />
+</p>
 
 ---
 
-#  Design Goals
+## Table of Contents
+
+- [Project Goals](#project-goals)
+- [System Overview](#system-overview)
+- [Core Hardware](#core-hardware)
+- [Documentation](#documentation)
+- [Bill of Materials](#bill-of-materials)
+- [Photos](#photos)
+- [Safety Notice](#safety-notice)
+- [License](#license)
+
+---
+
+## Project Goals
+
+ThermaVault is being built as a compact process oven platform with a focus on:
 
 - Stable annealing temperatures
 - Reduced thermal overshoot
 - Better chamber temperature consistency
-- Industrial-style process control
-- Reusable appliance platform
-- Modular and serviceable electronics
-- Long-duration operation reliability
-- Expandable hardware ecosystem
+- Programmable ramp/soak heat cycles
+- Serviceable wiring and component layout
+- Industrial-style process control hardware
+- Improved insulation for long-duration heat stability
+- Reusable appliance platform for future refinement
+
+This is not meant to be a quick “add a PID and call it good” project. The goal is to build a cleaner, safer, better-documented oven conversion that can be maintained, upgraded, and understood later.
 
 ---
 
-# ⚠️ Safety Notice
+## System Overview
 
-This project involves:
+At a high level, the oven uses a PID controller to read chamber temperature and control the heating elements through a properly rated AC solid state relay.
 
-- Mains AC voltage
-- High temperatures
-- Resistive heating elements
-- Solid state relays
-- Appliance modification
+```text
+AC Power In
+   |
+   |-- Fuse / breaker protection
+   |-- Main power switch
+   |-- PID controller power
+   |-- Convection fan control
+   |
+   '-- SSR-controlled heater circuit
+          |
+          '-- Factory heating elements
+```
+
+The factory convection fan is retained so the oven can continue circulating hot air through the chamber. Temperature feedback is handled by a high-temperature sensor mounted for chamber/process temperature control.
+
+<p align="center">
+  <img width="420" alt="PID controller" src="https://github.com/user-attachments/assets/1f51fc1a-f9c9-4be2-b712-107a3e9f7998" />
+  <img width="380" alt="SSR hardware" src="https://github.com/user-attachments/assets/84f70611-4241-4cf7-9cf8b605c220" />
+</p>
 
 ---
 
-#  System Overview
+## Core Hardware
 
-The oven is controlled using an industrial PID controller driving AC heater loads through a zero-cross SSR.
-
-The factory convection fan is retained.
-
+| System | Component | Notes |
+|---|---|---|
+| Oven platform | Breville convection oven | Donor appliance chassis and heating chamber |
+| Temperature control | Novus N20K48 PID controller | Main process controller with ramp/soak capability |
+| Heater switching | Industrial zero-cross AC SSR | SSR must be properly rated and mounted to a heat sink |
+| Temperature sensing | RTD PT100 | Chamber/process temperature feedback |
+| Airflow | Factory convection fan | Retained for chamber circulation |
+| Protection | Fuse / breaker / thermal cutoff | Required safety hardware, not optional |
+| Wiring | High-temperature appliance wire | Use properly rated wire for hot zones |
+| Insulation | Ceramic fiber insulation | Used to improve chamber stability |
 
 ---
 
-# 🔧 Hardware Overview
+## Documentation
 
-| Component | Description |
+| Document | Purpose |
 |---|---|
-| Oven Platform | Breville convection oven |
-| PID Controller | Industrial modular PID controller |
-| Heater Control | Industrial AC SSR |
-| Temperature Sensor | RTD PT100 |
-| Airflow | Factory convection fan |
-| Safety Devices | Thermal cutoff + fuse protection |
+| [Bill of Materials](./BOM.md) | Current parts list, links, quantities, and notes |
+| [Safety Notes](./SAFETY.md) | Mains voltage, heat, SSR, fuse, and enclosure safety notes |
+| [Wiring Overview](./docs/WIRING_OVERVIEW.md) | High-level wiring architecture and circuit notes |
+| [Build Notes](./docs/BUILD_NOTES.md) | Build planning, layout notes, and documentation checklist |
+| [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md) | Photo documentation from the oven teardown |
 
 ---
 
-# Recommended SSR Specifications
+## Bill of Materials
 
-Recommended industrial SSR brands include:
+The BOM has been moved to a dedicated file so it can grow without cluttering the main README.
 
-- Sensata-Crydom -(https://www.digikey.com/en/products/detail/sensata-crydom/D2440/221764)
-- Celduc -(https://www.digikey.com/en/products/detail/celduc/SO943460/14311190)
-- Panasonic Electric Works -(https://www.digikey.com/en/products/detail/panasonic-industry/AQA611VL/2364686)
-- Crouzet -(https://www.digikey.com/en/products/detail/crouzet/84137670N/13175923)
-  
----
-
-  # 📦 Bill of Materials (BOM)
-
-| Component | Description | Qty | Notes | Link |
-|---|---|---:|---|---|
-| PID Controller | Novus N20K48 | 1 | Main temperature controller | (https://www.novusautomation.com/site/default.asp?Idioma=1&TroncoID=608027&SecaoID=818294&SubsecaoID=926360&Template=../catalogos/layout_produto.asp&ProdutoID=081905) |
-| SSR Relay | Celduc 40A  | 1 | Controls heating elements |(https://www.digikey.com/en/products/detail/celduc/SO943460/14311190) |
-| Heat Sink | SSR Heat Sink | 1 | Required for SSR cooling | (https://www.amazon.com/dp/B091HQL9TM?ref=ppx_yo2ov_dt_b_fed_asin_title) |
-| Thermocouple | RTD PT100 | 1 | Chamber temperature sensing | (https://www.amazon.com/dp/B0FS7LJR8T?ref=ppx_yo2ov_dt_b_fed_asin_title) |
-| Ceramic Insulation | High-temp insulation | As Needed | Chamber insulation | (https://www.amazon.com/dp/B0CNQZJXVP?ref=ppx_yo2ov_dt_b_fed_asin_title) |
-| Wire | High-Temp Mica Wire | As Needed | Internal wiring | (https://www.amazon.com/dp/B0D8BBSKHM?ref=ppx_yo2ov_dt_b_fed_asin_title) |
+See: **[BOM.md](./BOM.md)**
 
 ---
 
-# 📷 Photos
+## Photos
 
-[Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md)
+Current photo documentation:
+
+- [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md)
+
+Future photo sections to add:
+
+- Original oven overview
+- Factory wiring before modification
+- Controller layout
+- SSR and heat sink mounting
+- Sensor placement
+- Final faceplate / enclosure install
+- First heat test
 
 ---
 
-#  License
+## Safety Notice
 
-This project is licensed under the GNU GPL v3.0 License.
+> **Warning:** This project involves mains AC voltage, high temperatures, resistive heating elements, appliance modification, and long-duration unattended heat risk. Mistakes can cause electric shock, fire, equipment damage, or injury.
+
+Minimum safety expectations:
+
+- Use properly rated fuses or breakers.
+- Maintain chassis ground continuity.
+- Use high-temperature wire inside hot zones.
+- Mount the SSR to a correctly sized heat sink.
+- Keep low-voltage and mains-voltage wiring separated.
+- Use strain relief on incoming power.
+- Do not bypass factory thermal safety devices unless they are replaced with equal or better protection.
+- Verify wiring with a meter before applying power.
+- Perform initial heat tests attended and away from flammable material.
+
+Read the full safety page before copying any part of this build: **[SAFETY.md](./SAFETY.md)**
+
 ---
 
-#  FishyFabsPNW
+## Project Direction
 
-Designed and documented by FishyFabsPNW.
+Planned documentation improvements:
+
+- Wiring diagram
+- Faceplate CAD files
+- Controller parameter notes
+- Annealing cycle examples
+- Thermal test results
+- Chamber temperature stability data
+- Final assembly photos
+
+---
+
+## License
+
+This project is licensed under the **GNU GPL v3.0 License**.
+
+---
+
+## FishyFabsPNW
+
+Designed, built, and documented by **FishyFabsPNW**.
