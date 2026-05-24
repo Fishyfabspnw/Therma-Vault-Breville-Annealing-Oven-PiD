@@ -1,4 +1,11 @@
 # ThermaVault PID — Build Log
+<img width="4284" height="5712" alt="image" src="https://github.com/user-attachments/assets/0ee69a7e-09fd-4fe2-8b7a-6b8b25b1fa56" />
+<img width="4284" height="5712" alt="image" src="https://github.com/user-attachments/assets/08e5e3ac-f2bf-45b4-82d4-6aeea8935a03" />
+<img width="4284" height="5712" alt="image" src="https://github.com/user-attachments/assets/f999d4be-4f12-48a8-b5d0-ff604c824356" />
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/cac5710c-9792-4d3d-9450-c5601a9212b5" />
+<img width="3024" height="4032" alt="image" src="https://github.com/user-attachments/assets/83ad2ca9-45b4-40bd-a0e7-3cb6a72dc7be" />
+<img width="4284" height="5712" alt="image" src="https://github.com/user-attachments/assets/9ee2b95a-a8c8-4551-929b-98fd1ef5d2e6" />
+<img width="4284" height="5712" alt="image" src="https://github.com/user-attachments/assets/f27c0409-fb7f-4a93-b142-7d47ae830dd2" />
 
 ## Overview
 
