@@ -54,25 +54,22 @@ The goal of this stage was to improve chamber consistency and reduce unnecessary
 
 ---
 
-# Heater and Sensor Routing
+## Sensor Routing
 
-Factory heater wiring was reorganized during the conversion process to improve serviceability and simplify future maintenance.
-
-High-temperature insulated wire was retained within heated areas while routing paths were cleaned up and reorganized around the chamber.
-
-Additional thermal protection sleeving and routing cleanup were implemented around heater pass-through locations and sensor entry points.
+The RTD PT100 probe was routed through the factory wire pass-through location using a 1/8" NPT compression fitting. This kept the sensor installation clean while avoiding the need for additional holes in the oven chassis.
 
 <p align="center">
-  <img width="420" alt="Sensor routing closeup" src="https://github.com/user-attachments/assets/cac5710c-9792-4d3d-9450-c5601a9212b5" />
+  <img
+    src="https://github.com/user-attachments/assets/cac5710c-9792-4d3d-9450-c5601a9212b5"
+    alt="ThermaVault PT100 sensor routing"
+    width="500">
 </p>
 
 <p align="center">
-<i>High-temperature sleeving and routing cleanup around chamber wire pass-through locations.</i>
+  <em>PT100 RTD routing through the factory chassis pass-through using high-temperature sleeving and a 1/8&quot; NPT fitting.</em>
 </p>
 
-<p align="center">
-<i>Close-up view of insulated chamber wiring and thermal protection routing.</i>
-</p>
+---
 
 ---
 
