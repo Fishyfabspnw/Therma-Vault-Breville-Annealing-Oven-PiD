@@ -1,9 +1,4 @@
 
-
-https://github.com/user-attachments/assets/86a4d50e-11a0-4eb5-be31-e4b34c51b753
-
-
-
 # ThermaVault PID — Build Log
 
 ## Overview
@@ -173,6 +168,13 @@ To reduce vibration and improve acoustic performance, the fan blades were manual
 
 - Reduced harmonic vibration and fan resonance
 - Lower audible hum during operation
+  
+Before Video-
+https://github.com/user-attachments/assets/86a4d50e-11a0-4eb5-be31-e4b34c51b753
 
+
+
+After Video-
+https://github.com/user-attachments/assets/ccb41f80-d16f-4f0b-a22a-a5547bd761ed
 
 ---
