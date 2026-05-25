@@ -89,8 +89,8 @@ See: **[BOM.md](./BOM.md)**
 
 Current photo documentation:
 
-- [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md)
-- [Build Log](./Build%20Photos/Build%20Log.md)
+- [Tear Down Photo Log](./Project%20Documentation/Tear%20Down%20Overview.md)
+- [Build Log](./Project%20Documentation/Build%20Log.md)
 
 ---
 
