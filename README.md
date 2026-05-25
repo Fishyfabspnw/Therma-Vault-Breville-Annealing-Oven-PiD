@@ -11,7 +11,8 @@ The build replaces the factory appliance timer/control behavior with an industri
 > **Use case:** Controlled annealing cycles for engineering plastics
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1ceb1442-bdfe-4a05-a30a-1af64fb22895"
+  <img src="<img width="1178" height="1335" alt="image" src="https://github.com/user-attachments/assets/19236ade-86bf-4264-bed5-a188d7746c8d" />
+"
        alt="ThermaVault PID Annealing Oven"
        width="550">
 </p>
