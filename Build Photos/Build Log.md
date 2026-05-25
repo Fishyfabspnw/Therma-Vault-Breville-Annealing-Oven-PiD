@@ -102,35 +102,52 @@ The terminal distribution layout was designed to keep the wiring compact while m
 <i>Refined wiring layout with improved routing organization and terminal distribution structure.</i>
 </p>
 
----
-
-# Convection Fan Retention
-
-The factory convection fan system was retained as part of the chamber airflow strategy.
-
-Maintaining airflow circulation helps improve chamber temperature uniformity and reduces localized hot spots during long-duration annealing cycles.
-
-The fan assembly and surrounding wiring were reorganized during the conversion process to integrate with the updated wiring architecture.
 
 ---
 
-# Custom Faceplate Development
+## Custom Faceplate Development
 
-A custom replacement faceplate was designed and fabricated to integrate the industrial PID controller and external power controls.
+A custom replacement faceplate was designed and fabricated to integrate the industrial PID controller and external power controls into a cleaner and more serviceable layout.
 
-The replacement panel relocates process controls outside the primary heated cavity while creating a cleaner and more purpose-built interface compared to the original appliance controls.
+The redesigned panel relocates critical process controls outside the primary heated cavity while replacing the original consumer appliance interface with a more industrial control system architecture.
 
-The faceplate was CAD-modeled specifically around the oven chassis geometry and mounting constraints.
+The faceplate assembly was CAD-modeled around the factory oven chassis geometry, existing mounting locations, and component clearance constraints.
 
-Current control system features include:
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/633a8ae5-2c06-4020-8862-89e176522cb6"
+    alt="ThermaVault faceplate CAD front view"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Initial CAD layout for the custom ThermaVault PID control faceplate.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/8ac29a2f-03a3-4fb0-81c9-659795dbbfdf"
+    alt="ThermaVault faceplate CAD secondary view"
+    width="700">
+</p>
+
+<p align="center">
+  <em>CAD development showing controller positioning, switch integration, and chassis fitment planning.</em>
+</p>
+
+### Current Control System Features
 
 - Industrial PID controller integration
 - Externalized power switching
-- Improved serviceability
-- Reduced exposure to chamber heat
+- Improved serviceability and wiring access
+- Reduced electronics exposure to chamber heat
+- Modular panel layout for future revisions
 
-The control panel remains actively under development as the project continues to evolve.
+> The control panel assembly remains under active development as the ThermaVault platform continues to evolve.
 
+---
 ---
 
 # Current Build State
