@@ -8,10 +8,23 @@ The build replaces the factory appliance timer/control behavior with an industri
 
 > **Status:** Active build / documentation in progress  
 > **Platform:** Breville convection oven conversion  
-> **Use case:** Controlled annealing cycles for 3D printed engineering plastics
+> **Use case:** Controlled annealing cycles for engineering plastics
 
-<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/1ceb1442-bdfe-4a05-a30a-1af64fb22895" />
+---
 
+## Project Preview
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/1ceb1442-bdfe-4a05-a30a-1af64fb22895"
+       alt="ThermaVault PID Annealing Oven"
+       width="550">
+</p>
+
+<p align="center">
+  <em>ThermaVault PID prototype enclosure and control layout</em>
+</p>
+
+---
 
 ---
 
