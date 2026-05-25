@@ -139,28 +139,3 @@ The faceplate assembly was CAD-modeled around the factory oven chassis geometry,
 
 ---
 
-### Current Control System Features
-
-- Industrial PID controller integration
-- Externalized power switching
-- Improved serviceability and wiring access
-- Reduced electronics exposure to chamber heat
-- Modular panel layout for future revisions
-
-> The control panel assembly remains under active development as the ThermaVault platform continues to evolve.
-
----
----
-
-# Current Build State
-
-At the current stage of development, the oven has transitioned from a factory countertop appliance into a dedicated PID-controlled process oven platform featuring:
-
-- Improved chamber sealing
-- Additional thermal insulation
-- Modular DIN rail wiring distribution
-- Industrial-style process controls
-- Externalized control hardware
-- Improved serviceability and maintenance access
-
-The project remains under active development as additional testing and refinement continue.
