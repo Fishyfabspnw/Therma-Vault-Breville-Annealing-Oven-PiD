@@ -23,8 +23,8 @@
 | Component | Type | Qty | Notes | Link |
 |---|---|---:|---|---|
 | Heating Elements | Factory Breville elements | Existing | Reused from donor oven | OEM |
-| Ceramic Fiber Insulation | High-temp insulation | As needed | Improves thermal stability | https://www.amazon.com/dp/B0CNQZJXVP |
-| High-Temp Wire | Mica / fiberglass insulated | As needed | Required near heater zones | https://www.amazon.com/dp/B0D8BBSKHM |
+| Ceramic Fiber Insulation | High-temp insulation | As needed | Improves thermal stability |[Amazon] https://www.amazon.com/dp/B0CNQZJXVP |
+| High-Temp Wire | Mica / fiberglass insulated | As needed | Required near heater zones |[Amazon] https://www.amazon.com/dp/B0D8BBSKHM |
 | Thermal Cutoff | High-temp safety cutoff | Recommended | Independent thermal safety | TBD |
 
 ---
