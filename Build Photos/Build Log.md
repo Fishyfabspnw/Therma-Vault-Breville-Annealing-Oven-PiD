@@ -115,7 +115,7 @@ The faceplate assembly was CAD-modeled around the factory oven chassis geometry,
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/633a8ae5-2c06-4020-8862-89e176522cb6"
+    src="https://github.com/user-attachments/assets/5f6a2c17-b882-4aa1-8075-845773b2fdbe"
     alt="ThermaVault faceplate CAD front view"
     width="700">
 </p>
@@ -128,14 +128,16 @@ The faceplate assembly was CAD-modeled around the factory oven chassis geometry,
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/8ac29a2f-03a3-4fb0-81c9-659795dbbfdf"
+    src="https://github.com/user-attachments/assets/f124674c-6264-40a4-bfa8-d8dfe4d01fb7"
     alt="ThermaVault faceplate CAD secondary view"
-    width="700">
+    width="500">
 </p>
 
 <p align="center">
   <em>CAD development showing controller positioning, switch integration, and chassis fitment planning.</em>
 </p>
+
+---
 
 ### Current Control System Features
 
