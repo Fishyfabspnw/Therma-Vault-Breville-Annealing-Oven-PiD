@@ -104,7 +104,6 @@ Minimum safety expectations:
 - Use high-temperature wire inside hot zones.
 - Mount the SSR to a correctly sized heat sink.
 - Keep low-voltage and mains-voltage wiring separated.
-- Use strain relief on incoming power.
 - Do not bypass factory thermal safety devices unless they are replaced with equal or better protection.
 - Verify wiring with a meter before applying power.
 - Perform initial heat tests attended and away from flammable material.
