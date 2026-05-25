@@ -71,10 +71,6 @@ Additional thermal protection sleeving and routing cleanup were implemented arou
 </p>
 
 <p align="center">
-  <img width="420" alt="Sensor routing detail" src="" />
-</p>
-
-<p align="center">
 <i>Close-up view of insulated chamber wiring and thermal protection routing.</i>
 </p>
 
