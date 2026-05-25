@@ -96,9 +96,6 @@ Compared to direct point-to-point splicing, the DIN rail layout significantly im
 
 The terminal distribution layout was designed to keep the wiring compact while maintaining separation between different circuit groups.
 
-<p align="center">
-  <img width="700" alt="DIN rail layout" src="https://github.com/user-attachments/assets/9ee2b95a-a8c8-4551-929b-98fd1ef5d2e6" />
-</p>
 
 <p align="center">
 <i>Initial DIN rail and WAGO terminal distribution layout integrated into the rear electronics area.</i>
