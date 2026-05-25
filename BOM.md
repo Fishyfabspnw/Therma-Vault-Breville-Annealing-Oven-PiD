@@ -8,10 +8,10 @@
 
 | Component | Model / Type | Qty | Notes | Link |
 |---|---|---:|---|---|
-| PID Controller | Novus N20K48 | 1 | Main process controller with ramp/soak support | https://www.novusautomation.com/site/default.asp?Idioma=1&TroncoID=608027&SecaoID=818294&SubsecaoID=926360&Template=../catalogos/layout_produto.asp&ProdutoID=081905 |
-| Solid State Relay | Celduc SO943460 40A | 1 | Main heater switching SSR | https://www.digikey.com/en/products/detail/celduc/SO943460/14311190 |
-| SSR Heat Sink | Generic aluminum SSR heat sink | 1 | Required for thermal management | https://www.amazon.com/dp/B091HQL9TM |
-| Temperature Sensor | PT100 RTD | 1 | Chamber temperature sensing | https://www.amazon.com/dp/B0FS7LJR8T |
+| PID Controller | Novus N20K48 | 1 | Main process controller with ramp/soak support | [Novus](https://www.novusautomation.com/site/default.asp?Idioma=1&TroncoID=608027&SecaoID=818294&SubsecaoID=926360&Template=../catalogos/layout_produto.asp&ProdutoID=081905) |
+| Solid State Relay | Celduc SO943460 40A | 1 | Main heater switching SSR | [DigiKey](https://www.digikey.com/en/products/detail/celduc/SO943460/14311190) |
+| SSR Heat Sink | Generic aluminum SSR heat sink | 1 | Required for thermal management | [Amazon](https://www.amazon.com/dp/B091HQL9TM) |
+| Temperature Sensor | PT100 RTD | 1 | Chamber temperature sensing | [Amazon](https://www.amazon.com/dp/B0FS7LJR8T) |
 | Main Power Switch | Illuminated rocker switch | 1 | Main system power | TBD |
 | Fuse / Breaker | Panel-mount protection device | 1 | Required line protection | TBD |
 | Terminal Blocks | WAGO / terminal strip | As needed | Power distribution | TBD |
