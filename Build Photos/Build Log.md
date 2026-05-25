@@ -167,9 +167,6 @@ To reduce vibration and improve acoustic performance, the fan blades were manual
 
 - Reduced harmonic vibration and fan resonance
 - Lower audible hum during operation
-- Improved rotational balance at operating speed
-- Cleaner airflow characteristics inside the chamber
 
-> Small fan blade alignment errors became significantly more noticeable once the oven chassis was reassembled, making calibration worthwhile for long-duration annealing cycles.
 
 ---
