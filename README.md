@@ -20,7 +20,6 @@ The build replaces the factory appliance timer/control behavior with an industri
   <em>ThermaVault PID prototype enclosure and control layout</em>
 </p>
 
----
 
 ---
 
