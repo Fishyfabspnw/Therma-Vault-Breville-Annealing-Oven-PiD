@@ -28,6 +28,7 @@ The build replaces the factory appliance timer/control behavior with an industri
 - [Project Goals](#project-goals)
 - [System Overview](#system-overview)
 - [Documentation](#documentation)
+- [CAD Models](#cad-models)
 - [Bill of Materials](#bill-of-materials)
 - [Photos](#photos)
 - [Safety Notice](#safety-notice)
@@ -73,6 +74,34 @@ The factory convection fan is retained so the oven can continue circulating hot 
 | [Safety Notes](./SAFETY.md) | Mains voltage, SSR, fuse, and thermal safety notes |
 | [Tear Down Photo Log](./Build%20Photos/Tear%20Down%20Overview.md) | Documentation of the factory oven teardown process |
 | [Build Log](./Build%20Photos/Build%20Log.md) | Ongoing build progression, thermal modifications, wiring integration, and control system development |
+
+---
+
+## CAD Models
+
+CAD files, printable parts, and fabrication models used throughout the ThermaVault PID build will be stored here as the project develops.
+
+Planned and current CAD categories include:
+
+- Front control panel and faceplate layouts
+- PID controller mounting geometry
+- IEC inlet and switch mounting plates
+- Internal electronics mounting solutions
+- Fan ducting and airflow management parts
+- Insulation retainers and brackets
+- Printable wire management components
+- Future enclosure and chassis modifications
+
+Recommended file formats:
+
+| Format | Purpose |
+|---|---|
+| `.F3D` | Native Fusion 360 source files |
+| `.STEP` | Universal CAD exchange format |
+| `.STL` | Printable mesh exports |
+| `.SVG` | Laser/vector faceplate artwork and cut files |
+
+> CAD models are still actively evolving as thermal testing and hardware layout refinement continue.
 
 ---
 
