@@ -17,7 +17,8 @@
 | Electronics | Terminal Blocks | WAGO / terminal strip | As needed | AC power distribution and wiring management | [Amazon](https://www.amazon.com/Compact-Splicing-Connector-Assortment-221-2401/dp/B0CJ5QF3VX/ref=sr_1_2_sspa?crid=38D2URXGKM3UA&dib=eyJ2IjoiMSJ9.ssstI5vqo23jY_DjROUh7cVhIP2kV73lHF62i9oY5Kb51wMi6lEWh_rE3BPJs9oe-cLfquk1TyGM1OZly0qw2r4MiBRPbtAnqNaDtcY_ZMVqqNS5v0l3GLsjXHkqa71BpvmpOXBGjN0hkpCQNB8tTJg-inlh4SwdLVfF0f6axGuMRkVLKbF6VQ_6abksM5iSpAR0j7i2G3_t88nJbcTdPNwWL2ZLWBaVhE2PTdeEchwKU2vyOZ0knlslZwi7qB2ly6ipX-9Ny4EnzoUvTUJSAECB3RMcNtuXD2d48bwzITM.JA0sDAAM-S1ABlIDDojslYFT017_bSo2DTk8NP5Cy74&dib_tag=se&keywords=wago%2B221&qid=1779716119&s=industrial&sprefix=wago%2B22%2Cindustrial%2C178&sr=1-2-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1) |
 | Thermal | Ceramic Fiber Insulation | High-temp insulation | 2 Boxes | Improves chamber thermal stability and efficiency | [Amazon](https://www.amazon.com/dp/B0CNQZJXVP) |
 | Thermal | High-Temp Wire | Mica / fiberglass insulated wire | 16ft | Used near high-temperature heater zones | [Amazon](https://www.amazon.com/dp/B0D8BBSKHM) |
-
+| Printed Parts | DIN Rail Distribution Block | Printable WAGO AC distribution block | 2 Printed | DIN-mounted AC line / neutral distribution | [MakerWorld](https://makerworld.com/en/models/2337616-wago-ac-distribution-block-din-rail-mout-l-n#profileId-2554998) |
+| Printed Parts | WAGO 221 DIN Rail Holder | Printable DIN rail mount | 2 Printed | Mounting solution for WAGO 221 connectors | [MakerWorld](https://makerworld.com/en/models/2597414-wago-221-holder-for-din-rail-2-3-5-way#profileId-2866148) |
 ---
 
 ## Recommended SSR Manufacturers
