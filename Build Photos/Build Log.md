@@ -139,3 +139,38 @@ The faceplate assembly was CAD-modeled around the factory oven chassis geometry,
 
 ---
 
+## Convection Fan Calibration
+
+During initial testing, the factory convection fan assembly produced a noticeable harmonic hum caused by blade runout and imbalance.
+
+To reduce vibration and improve acoustic performance, the fan blades were manually trued using a dial indicator setup to measure blade offset and rotational consistency.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/e036ffad-8aed-4081-8aab-e09118b92e57" />
+"
+    alt="ThermaVault convection fan blade calibration"
+    width="650">
+</p>
+
+<p align="center">
+  <em>Dial indicator setup used to measure fan blade runout and correct blade alignment.</em>
+</p>
+
+### Calibration Process
+
+- Mounted a dial indicator directly against the fan blade edge
+- Rotated the fan assembly by hand to identify high and low spots
+- Adjusted individual blade alignment incrementally
+- Rechecked rotational consistency until runout was minimized
+
+### Results
+
+- Reduced harmonic vibration and fan resonance
+- Lower audible hum during operation
+- Improved rotational balance at operating speed
+- Cleaner airflow characteristics inside the chamber
+
+> Small fan blade alignment errors became significantly more noticeable once the oven chassis was reassembled, making calibration worthwhile for long-duration annealing cycles.
+
+---
