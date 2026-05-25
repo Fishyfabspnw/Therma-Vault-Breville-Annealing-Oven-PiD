@@ -147,8 +147,7 @@ To reduce vibration and improve acoustic performance, the fan blades were manual
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/e036ffad-8aed-4081-8aab-e09118b92e57" />
-"
+    src="https://github.com/user-attachments/assets/e036ffad-8aed-4081-8aab-e09118b92e57"
     alt="ThermaVault convection fan blade calibration"
     width="650">
 </p>
