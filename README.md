@@ -11,7 +11,9 @@ The build replaces the factory appliance timer/control behavior with an industri
 > **Use case:** Controlled annealing cycles for 3D printed engineering plastics
 
 <p align="center">
-  <img width="720" alt="ThermaVault oven build" src="https://github.com/user-attachments/assets/534b35a8-9bc2-4163-81de-b93c42fc987d" />
+  <img width="720" alt="ThermaVault oven build" src="<img width="2160" height="2880" alt="image" src="https://github.com/user-attachments/assets/c066f452-848a-4a56-ad7b-b493124e9949" />
+![Uploading image.png…]()
+" />
 </p>
 
 ---
