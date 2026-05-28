@@ -72,6 +72,50 @@ The RTD PT100 probe was routed through the factory wire pass-through location us
 
 ---
 
+## Convection Fan Calibration
+
+During initial testing, the factory convection fan assembly produced a noticeable harmonic hum. The fan was still functional, but the blade assembly had enough runout and imbalance to create vibration and resonance during operation.
+
+To correct this, the fan blades were manually trued using a dial indicator. Each blade was checked by rotating the fan by hand, identifying high and low spots, and carefully adjusting the blade position until the runout was reduced.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/e036ffad-8aed-4081-8aab-e09118b92e57"
+    alt="ThermaVault convection fan blade calibration"
+    width="650">
+</p>
+
+<p align="center">
+  <em>Dial indicator setup used to measure fan blade runout and correct blade alignment before final fan testing.</em>
+</p>
+
+### Calibration Steps
+
+- Mounted a dial indicator against the outer edge of the fan blades
+- Rotated the fan assembly by hand to check blade-to-blade consistency
+- Identified high and low spots in the blade path
+- Adjusted individual blades in small increments
+- Rechecked the fan until the runout and visible wobble were reduced
+
+### Before Calibration
+
+Before adjustment, the fan had visible runout and produced a stronger harmonic hum during operation. This made the fan sound rougher than expected and showed that the blade assembly was not spinning evenly.
+
+https://github.com/user-attachments/assets/86a4d50e-11a0-4eb5-be31-e4b34c51b753
+
+### After Calibration
+
+After truing the blades, the fan ran noticeably smoother with less vibration and a lower audible hum. This should help reduce resonance in the oven shell during long annealing cycles.
+
+https://github.com/user-attachments/assets/ccb41f80-d16f-4f0b-a22a-a5547bd761ed
+
+### Result
+
+- Reduced fan vibration
+- Lower harmonic hum during operation
+- Smoother convection fan rotation
+- Less resonance transferring into the oven shell
+
 ---
 
 # DIN Rail and Wiring Distribution
@@ -201,51 +245,5 @@ The faceplate assembly was CAD-modeled around the factory oven chassis geometry,
 <p align="center">
   <em>CAD development showing controller positioning, switch integration, and chassis fitment planning.</em>
 </p>
-
----
-
-## Convection Fan Calibration
-
-During initial testing, the factory convection fan assembly produced a noticeable harmonic hum. The fan was still functional, but the blade assembly had enough runout and imbalance to create vibration and resonance during operation.
-
-To correct this, the fan blades were manually trued using a dial indicator. Each blade was checked by rotating the fan by hand, identifying high and low spots, and carefully adjusting the blade position until the runout was reduced.
-
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/e036ffad-8aed-4081-8aab-e09118b92e57"
-    alt="ThermaVault convection fan blade calibration"
-    width="650">
-</p>
-
-<p align="center">
-  <em>Dial indicator setup used to measure fan blade runout and correct blade alignment before final fan testing.</em>
-</p>
-
-### Calibration Steps
-
-- Mounted a dial indicator against the outer edge of the fan blades
-- Rotated the fan assembly by hand to check blade-to-blade consistency
-- Identified high and low spots in the blade path
-- Adjusted individual blades in small increments
-- Rechecked the fan until the runout and visible wobble were reduced
-
-### Before Calibration
-
-Before adjustment, the fan had visible runout and produced a stronger harmonic hum during operation. This made the fan sound rougher than expected and showed that the blade assembly was not spinning evenly.
-
-https://github.com/user-attachments/assets/86a4d50e-11a0-4eb5-be31-e4b34c51b753
-
-### After Calibration
-
-After truing the blades, the fan ran noticeably smoother with less vibration and a lower audible hum. This should help reduce resonance in the oven shell during long annealing cycles.
-
-https://github.com/user-attachments/assets/ccb41f80-d16f-4f0b-a22a-a5547bd761ed
-
-### Result
-
-- Reduced fan vibration
-- Lower harmonic hum during operation
-- Smoother convection fan rotation
-- Less resonance transferring into the oven shell
 
 ---
