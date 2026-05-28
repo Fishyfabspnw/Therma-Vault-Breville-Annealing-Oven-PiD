@@ -235,6 +235,17 @@ This inspection step is especially important because once the shell is back on, 
   <em>Final open-shell wiring check before reinstalling the oven cover.</em>
 </p>
 
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/9e315309-9e3b-4f30-9069-b5df3ce45882"
+    alt="Additional wiring inspection view before reinstalling the oven shell"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Additional inspection angle showing the rear wiring, terminal layout, and clearance checks before the shell was reinstalled.</em>
+</p>
+
 ### Pre-Reassembly Checks
 
 - Confirm all WAGO levers are fully closed
