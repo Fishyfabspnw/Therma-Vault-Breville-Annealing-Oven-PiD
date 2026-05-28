@@ -139,6 +139,37 @@ This location keeps the SSR close to the heater wiring path while still keeping 
 
 ---
 
+## Wiring Inspection Before Shell Reassembly
+
+Before reinstalling the outer shell, the wiring layout was checked over with the oven still open. This is the best time to verify that all high-voltage connections are seated, all terminals are tight, and nothing can rub against sharp sheet-metal edges once the cover is installed.
+
+This inspection step is especially important because once the shell is back on, access to the SSR, WAGO distribution blocks, sensor routing, and heater wiring becomes much more limited.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/614671fd-78d4-4925-8707-2505f6e3b56f"
+    alt="Open rear wiring inspection before reinstalling the oven shell"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Final open-shell wiring check before reinstalling the oven cover.</em>
+</p>
+
+### Pre-Reassembly Checks
+
+- Confirm all WAGO levers are fully closed
+- Verify all screw terminals are tight
+- Check that high-temperature wire is used anywhere exposed to heat
+- Keep mains-voltage wiring separated from sensor and control wiring where possible
+- Make sure wires cannot contact heater elements, sharp sheet metal, or the convection fan
+- Confirm the SSR and heat sink are securely mounted
+- Verify chassis ground continuity before powering the oven again
+
+> **Safety note:** Do not reinstall the shell until the wiring has been visually inspected and verified with a meter where needed. This build uses mains AC voltage, so any loose connection or misplaced wire can become a serious shock or fire hazard.
+
+---
+
 ## Custom Faceplate Development
 
 A custom replacement faceplate was designed and fabricated to integrate the industrial PID controller and external power controls into a cleaner and more serviceable layout.
