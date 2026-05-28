@@ -11,13 +11,48 @@ The project is centered around converting a Breville convection oven into a more
 
 ---
 
-# Factory Control Panel Removal
+# Factory Control Panel Removal and Faceplate Development
 
 The original Breville front control panel assembly was removed early in the build process to allow integration of a dedicated industrial PID controller and externalized control hardware.
 
-The factory faceplate was retained  during the tear down phase to be repurposed into a new faceplate.
+The factory faceplate was retained during the tear down phase so it could be repurposed into a new control layout instead of starting from a completely blank panel.
+
 <p align="center">
   <img width="420" alt="Factory control panel" src="https://github.com/user-attachments/assets/0ee69a7e-09fd-4fe2-8b7a-6b8b25b1fa56" />
+</p>
+
+<p align="center">
+  <em>Original Breville control panel removed during tear down for conversion into the new ThermaVault PID control interface.</em>
+</p>
+
+A custom replacement faceplate was then designed and fabricated to integrate the industrial PID controller and external power controls into a cleaner and more serviceable layout.
+
+The redesigned panel relocates critical process controls outside the primary heated cavity while replacing the original consumer appliance interface with a more industrial control system architecture.
+
+The faceplate assembly was CAD-modeled around the factory oven chassis geometry, existing mounting locations, and component clearance constraints.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/5f6a2c17-b882-4aa1-8075-845773b2fdbe"
+    alt="ThermaVault faceplate CAD front view"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Initial CAD layout for the custom ThermaVault PID control faceplate.</em>
+</p>
+
+<br>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/f124674c-6264-40a4-bfa8-d8dfe4d01fb7"
+    alt="ThermaVault faceplate CAD secondary view"
+    width="500">
+</p>
+
+<p align="center">
+  <em>CAD development showing controller positioning, switch integration, and chassis fitment planning.</em>
 </p>
 
 ---
@@ -211,39 +246,5 @@ This inspection step is especially important because once the shell is back on, 
 - Verify chassis ground continuity before powering the oven again
 
 > **Safety note:** Do not reinstall the shell until the wiring has been visually inspected and verified with a meter where needed. This build uses mains AC voltage, so any loose connection or misplaced wire can become a serious shock or fire hazard.
-
----
-
-## Custom Faceplate Development
-
-A custom replacement faceplate was designed and fabricated to integrate the industrial PID controller and external power controls into a cleaner and more serviceable layout.
-
-The redesigned panel relocates critical process controls outside the primary heated cavity while replacing the original consumer appliance interface with a more industrial control system architecture.
-
-The faceplate assembly was CAD-modeled around the factory oven chassis geometry, existing mounting locations, and component clearance constraints.
-
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/5f6a2c17-b882-4aa1-8075-845773b2fdbe"
-    alt="ThermaVault faceplate CAD front view"
-    width="700">
-</p>
-
-<p align="center">
-  <em>Initial CAD layout for the custom ThermaVault PID control faceplate.</em>
-</p>
-
-<br>
-
-<p align="center">
-  <img
-    src="https://github.com/user-attachments/assets/f124674c-6264-40a4-bfa8-d8dfe4d01fb7"
-    alt="ThermaVault faceplate CAD secondary view"
-    width="500">
-</p>
-
-<p align="center">
-  <em>CAD development showing controller positioning, switch integration, and chassis fitment planning.</em>
-</p>
 
 ---
