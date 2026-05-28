@@ -124,6 +124,17 @@ This location keeps the SSR close to the heater wiring path while still keeping 
   <em>SSR mounted with thermal paste to a heat sink, then bolted to the oven shell for improved heat dissipation and serviceable wiring layout.</em>
 </p>
 
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/0986bab6-bab5-4aef-b042-77a3bac9bf72"
+    alt="Additional view of SSR heat sink mounting and rear wiring layout"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Additional rear view showing the SSR heat sink location, nearby WAGO distribution blocks, and wiring path around the heater control area.</em>
+</p>
+
 > **Build note:** The SSR should be mounted tightly against the heat sink with thermal paste applied between the two surfaces. Wiring should be kept clear of the heat sink body and high-voltage terminals.
 
 ---
