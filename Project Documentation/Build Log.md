@@ -103,6 +103,28 @@ The terminal distribution layout was designed to keep the wiring compact while m
 <i>Refined wiring layout with improved routing organization and terminal distribution structure.</i>
 </p>
 
+---
+
+## SSR Installation and Heat Sink Mounting
+
+The solid state relay was mounted to an aluminum heat sink using thermal paste between the SSR and the heat sink surface. The thermal paste improves heat transfer from the SSR into the heat sink during heater cycling.
+
+After the SSR was attached to the heat sink, the heat sink assembly was bolted to the metal shell of the oven. This gives the SSR a solid mechanical mounting point and allows the oven shell to act as additional thermal mass.
+
+This location keeps the SSR close to the heater wiring path while still keeping it mounted outside the primary heated chamber area.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/e6866fe5-152b-4cad-b7b4-a251963c89cc"
+    alt="SSR mounted to heat sink and bolted to the oven shell"
+    width="700">
+</p>
+
+<p align="center">
+  <em>SSR mounted with thermal paste to a heat sink, then bolted to the oven shell for improved heat dissipation and serviceable wiring layout.</em>
+</p>
+
+> **Build note:** The SSR should be mounted tightly against the heat sink with thermal paste applied between the two surfaces. Wiring should be kept clear of the heat sink body and high-voltage terminals.
 
 ---
 
