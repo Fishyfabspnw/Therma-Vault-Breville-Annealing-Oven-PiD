@@ -270,3 +270,74 @@ This inspection step is especially important because once the shell is back on, 
 > **Safety note:** Do not reinstall the shell until the wiring has been visually inspected and verified with a meter where needed. This build uses mains AC voltage, so any loose connection or misplaced wire can become a serious shock or fire hazard.
 
 ---
+
+## Shell Reassembly and Control Box Fitment
+
+After the wiring inspection was complete, the outer shell was reinstalled around the oven body. During reassembly, the mounting locations were checked carefully so the shell could be seated without pinching wires or forcing the panels out of alignment.
+
+The rear control box also required extra reach to reinstall the screws cleanly. A drill extension was used to access the recessed fasteners and tighten the control box back into place after the shell was fitted.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/8a16767d-b571-48c7-8b2a-4a25632db435"
+    alt="Pointing to oven shell mounting location during reassembly"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Checking shell mounting locations before reinstalling the outer cover.</em>
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/7d64c555-e9fc-474a-b308-1eb606125480"
+    alt="Second shell mounting location reference during oven reassembly"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Additional mounting point reference used while lining up the oven shell.</em>
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/0d156078-f6c1-41a2-90f6-e9b8609dc725"
+    alt="Drill extension needed to reach recessed control box screws"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Drill extension used to reach the recessed screws for the rear control box.</em>
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/e7cdaa90-e199-4ef2-8552-b962c3a8c3b9"
+    alt="Using drill extensions to reinstall the oven control box screws"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Reinstalling the control box screws with extensions after the shell was positioned.</em>
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/ca8f5fa6-109c-4cab-bc1c-b958e790be44"
+    alt="Oven shell reinstalled and ThermaVault PID powered on"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Shell reinstalled and the oven powered on for the next stage of testing.</em>
+</p>
+
+### Reassembly Notes
+
+- Verified shell mounting points before tightening screws
+- Checked that the shell did not pinch or pull on wiring
+- Used drill extensions to reach recessed control box fasteners
+- Confirmed the rear electronics area remained serviceable after reassembly
+- Powered the oven on after the shell was reinstalled for the next round of functional testing
+
+---
