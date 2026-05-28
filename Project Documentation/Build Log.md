@@ -341,3 +341,58 @@ The rear control box also required extra reach to reinstall the screws cleanly. 
 - Powered the oven on after the shell was reinstalled for the next round of functional testing
 
 ---
+
+## Controller Setup, First PID Tune, and First Annealing Cycle
+
+With the oven reassembled and powered on, the next stage was setting up the PID controller through the phone app and preparing the oven for its first controlled heat cycle.
+
+The controller was connected through the app so the process temperature, setpoint, output behavior, and tuning status could be monitored without relying only on the front panel display. This made it easier to watch the oven during early testing and confirm that the controller was responding correctly.
+
+### Initial Controller Setup
+
+The first setup pass focused on confirming the basics before running a full annealing cycle:
+
+- Verified that the PT100 temperature reading was stable and believable at room temperature
+- Confirmed the controller was in automatic control mode, not manual output mode
+- Checked that the SSR output switched the heating elements on and off correctly
+- Verified that the convection fan operated as expected
+- Set a conservative test temperature before moving into higher-temperature annealing profiles
+- Watched the app display to confirm that the process value followed the setpoint correctly
+
+This step was important because manual output mode can drive the heating elements continuously. For normal annealing use, the controller needs to regulate temperature automatically through the SSR.
+
+### First PID Autotune
+
+After basic operation was confirmed, the first PID autotune was started with the oven empty and under direct supervision. The goal of the autotune was to let the controller learn how the modified oven responds to heat input, insulation, convection airflow, and thermal lag.
+
+During tuning, the controller cycles the heater output and watches how the chamber temperature rises, overshoots, falls, and stabilizes. From that response, it calculates new PID values for proportional, integral, and derivative control.
+
+The first tune is not treated as the final tune forever. It is a baseline tune for the current oven configuration. Any major change to insulation, sensor placement, heater wiring, fan behavior, or chamber load may require tuning again.
+
+### First Annealing Test
+
+Once the controller completed its first tune, the oven was used for an initial annealing test. This first run was treated as a validation cycle rather than a production cycle.
+
+The purpose of the first annealing run was to confirm:
+
+- The oven could reach the target temperature without uncontrolled overshoot
+- The controller could hold a stable temperature after heat soak
+- The SSR and heat sink remained stable during repeated heater cycling
+- The convection fan continued to move air through the chamber
+- The wiring and shell remained mechanically stable after heating
+- The chamber cooled down normally after the cycle
+
+For the first real material test, the oven should be watched closely from heat-up through cooldown. The goal is not just to make the plastic hot. The goal is to prove that the converted oven behaves predictably enough to become a repeatable annealing tool.
+
+### First-Cycle Notes
+
+- Run the first cycle empty or with a low-risk test part before trusting critical parts
+- Stay with the oven during the first full heat cycle
+- Watch for smell, smoke, wire movement, abnormal fan noise, or unstable temperature behavior
+- Confirm the SSR heat sink temperature stays reasonable during cycling
+- Let the oven cool down naturally before opening it aggressively or removing parts
+- Record the first usable temperature profile so future cycles can be compared against it
+
+> **Build note:** The first PID tune and first annealing cycle are part of commissioning the oven. They should be treated as controlled testing, not normal unattended operation.
+
+---
