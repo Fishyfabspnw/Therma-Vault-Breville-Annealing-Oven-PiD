@@ -88,6 +88,17 @@ The goal of this stage was to improve chamber consistency and reduce unnecessary
 <i>Additional RTV sealing work performed around upper heater routing and structural panel seams.</i>
 </p>
 
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/d88b5516-448a-4d09-acd3-1fd51a605652"
+    alt="Kwool ceramic insulation added around the oven shell"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Kwool ceramic insulation added around the oven shell to improve heat retention and reduce heat loss through the outer body.</em>
+</p>
+
 ---
 
 ## Sensor Routing
