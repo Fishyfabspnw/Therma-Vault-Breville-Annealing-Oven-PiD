@@ -55,6 +55,34 @@ The faceplate assembly was CAD-modeled around the factory oven chassis geometry,
   <em>CAD development showing controller positioning, switch integration, and chassis fitment planning.</em>
 </p>
 
+## Fuse and Switch Clearance Modification
+
+During test fitting, the original gray plastic structure behind the faceplate interfered with the added fuse holder and power switch. The extra plastic had to be removed so both components could sit fully into the panel without being forced or misaligned.
+
+The first image shows the original gray plastic ribbing before modification. The second image shows the area after the plastic was broken out and cleared for the fuse and switch body.
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/5b16f992-9306-4360-84b6-7cb6bff306ad"
+    alt="Gray plastic structure behind the faceplate before fuse and switch clearance modification"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Original gray plastic behind the faceplate that interfered with the fuse holder and switch fitment.</em>
+</p>
+
+<p align="center">
+  <img
+    src="https://github.com/user-attachments/assets/2f87ea5d-049a-4637-95e4-d316b0342d5f"
+    alt="Gray plastic removed from behind the faceplate to allow fuse holder and switch clearance"
+    width="700">
+</p>
+
+<p align="center">
+  <em>Plastic cleared from the rear of the faceplate so the fuse holder and power switch could seat properly.</em>
+</p>
+
 ---
 
 # Chamber Sealing and Thermal Preparation
