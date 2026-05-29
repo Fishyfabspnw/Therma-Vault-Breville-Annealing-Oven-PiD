@@ -71,7 +71,7 @@ The first image shows the original gray plastic ribbing before modification. The
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/5b16f992-9306-4360-84b6-7cb6bff306ad"
+    src="https://github.com/user-attachments/assets/159c0571-c3d0-4f3f-a8a5-a259fc403a53"
     alt="Gray plastic structure behind the faceplate before fuse and switch clearance modification"
     width="700">
 </p>
