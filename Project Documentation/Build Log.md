@@ -71,7 +71,7 @@ The first image shows the original gray plastic ribbing before modification. The
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/159c0571-c3d0-4f3f-a8a5-a259fc403a53"
+    src="https://github.com/user-attachments/assets/5b16f992-9306-4360-84b6-7cb6bff306ad"
     alt="Gray plastic structure behind the faceplate before fuse and switch clearance modification"
     width="700">
 </p>
@@ -82,7 +82,7 @@ The first image shows the original gray plastic ribbing before modification. The
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/2f87ea5d-049a-4637-95e4-d316b0342d5f"
+    src="https://github.com/user-attachments/assets/159c0571-c3d0-4f3f-a8a5-a259fc403a53"
     alt="Gray plastic removed from behind the faceplate to allow fuse holder and switch clearance"
     width="700">
 </p>
