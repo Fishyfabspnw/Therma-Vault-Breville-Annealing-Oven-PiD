@@ -55,6 +55,14 @@ The faceplate assembly was CAD-modeled around the factory oven chassis geometry,
   <em>CAD development showing controller positioning, switch integration, and chassis fitment planning.</em>
 </p>
 
+## N20K48 PID Controller Retention
+
+During final faceplate fitment, the N20K48 PID controller was held in place by the rear green terminal block once the controller was seated in the panel opening.
+
+The retaining clips that came with the PID controller were not used in this build. With the custom faceplate layout and rear clearance constraints, the terminal block provided the practical retention point for the controller body.
+
+> **Fitment note:** Before final assembly, verify that the PID controller is fully seated in the faceplate, the green terminal block is secure, and the controller cannot shift forward or backward under normal handling.
+
 ## Fuse and Switch Clearance Modification
 
 During test fitting, the original gray plastic structure behind the faceplate interfered with the added fuse holder and power switch. The extra plastic had to be removed so both components could sit fully into the panel without being forced or misaligned.
