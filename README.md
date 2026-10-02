@@ -76,6 +76,7 @@ The factory convection fan is retained so the oven can continue circulating hot 
 | [CAD Models](./CAD%20Models/) | CAD files, printable parts, and SVG artwork |
 | [Tear Down Photo Log](./Project%20Documentation/Tear%20Down%20Overview.md) | Documentation of the factory oven teardown process |
 | [Build Log](./Project%20Documentation/Build%20Log.md) | Ongoing build progression, thermal modifications, wiring integration, and control system development |
+| [Community Builds](./Project%20Documentation/Community%20Builds/README.md) | Adaptations of the ThermaVault concept to other oven models |
 
 ---
 
@@ -98,21 +99,19 @@ Current photo documentation:
 
 ## Community Builds
 
-### Breville BOV650 adaptation
+ThermaVault now has a dedicated **community build library** for adaptations of the project to other oven models.
 
-A community member used the ThermaVault build guide as the starting point for this modified **Breville BOV650** annealing oven. This adaptation brings the PID conversion to the BOV650 chassis with a custom front control panel.
+Current documented adaptation:
 
-<p align="center">
-  <img src="./Project%20Documentation/Community%20Builds/BOV650/bov650-community-build-front.jpg" alt="Breville BOV650 community ThermaVault build, front view" width="31%" />
-  <img src="./Project%20Documentation/Community%20Builds/BOV650/bov650-community-build-controls.jpg" alt="Breville BOV650 community ThermaVault build, control panel close-up" width="31%" />
-  <img src="./Project%20Documentation/Community%20Builds/BOV650/bov650-community-build-angle.jpg" alt="Breville BOV650 community ThermaVault build, angled view" width="31%" />
-</p>
+- **[Breville BOV650 community build](./Project%20Documentation/Community%20Builds/BOV650/README.md)** — BOV650 conversion based on the ThermaVault guide, including a model-specific front control panel.
 
 <p align="center">
-  <em>Community-built BOV650 adaptation based on the ThermaVault guide.</em>
+  <a href="./Project%20Documentation/Community%20Builds/BOV650/README.md">
+    <img src="./Project%20Documentation/Community%20Builds/BOV650/bov650-community-build-front.jpg" alt="Breville BOV650 community ThermaVault build" width="550" />
+  </a>
 </p>
 
-BOV650-specific CAD: **[FacePlate_BOV650.step](./CAD%20Models/FacePlate_BOV650.step)**
+Browse all adaptations and the folder format here: **[Community Builds Index](./Project%20Documentation/Community%20Builds/README.md)**
 
 ---
 
