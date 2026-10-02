@@ -31,6 +31,7 @@ The build replaces the factory appliance timer/control behavior with an industri
 - [Documentation](#documentation)
 - [Bill of Materials](#bill-of-materials)
 - [Photos](#photos)
+- [Community Builds](#community-builds)
 - [Safety Notice](#safety-notice)
 - [License](#license)
 
@@ -92,6 +93,26 @@ Current photo documentation:
 
 - [Tear Down Photo Log](./Project%20Documentation/Tear%20Down%20Overview.md)
 - [Build Log](./Project%20Documentation/Build%20Log.md)
+
+---
+
+## Community Builds
+
+### Breville BOV650 adaptation
+
+A community member used the ThermaVault build guide as the starting point for this modified **Breville BOV650** annealing oven. This adaptation brings the PID conversion to the BOV650 chassis with a custom front control panel.
+
+<p align="center">
+  <img src="./Project%20Documentation/Community%20Builds/BOV650/bov650-community-build-front.jpg" alt="Breville BOV650 community ThermaVault build, front view" width="31%" />
+  <img src="./Project%20Documentation/Community%20Builds/BOV650/bov650-community-build-controls.jpg" alt="Breville BOV650 community ThermaVault build, control panel close-up" width="31%" />
+  <img src="./Project%20Documentation/Community%20Builds/BOV650/bov650-community-build-angle.jpg" alt="Breville BOV650 community ThermaVault build, angled view" width="31%" />
+</p>
+
+<p align="center">
+  <em>Community-built BOV650 adaptation based on the ThermaVault guide.</em>
+</p>
+
+BOV650-specific CAD: **[FacePlate_BOV650.step](./CAD%20Models/FacePlate_BOV650.step)**
 
 ---
 
